@@ -1,8 +1,13 @@
+import About from "@/components/About/About";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center h-screen w-screen font-bold text-4xl">
-      Initializing Project
-    </div>
+    <main className="">
+      {/* Hero section */}
+      <Hero />
+
+      <About />
+    </main>
   );
 }
