@@ -11,7 +11,7 @@ export default function Hero() {
         alt=""
         height={1080}
         width={1920}
-        className="absolute left-0 top-0 -z-20 h-full md:object-cover"
+        className="absolute left-0 top-0 -z-20 h-full md:object-cover w-full"
       />
 
       <Bounded className=" text-white">
