@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Bounded from "../Bounded";
 import { aboutVideoSectionDetails } from "@/constants/about";
-import PlayButton from "./PlayButton";
 import AboutVideoOverlayText from "./AboutVideoOverlayText";
 import AboutSectionDescriptiveDetails from "./AboutSectionDescriptiveDetails";
 

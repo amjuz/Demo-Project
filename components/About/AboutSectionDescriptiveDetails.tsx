@@ -1,4 +1,3 @@
-import { aboutDescription } from "@/constants/about";
 import { cn } from "@/lib/utils";
 import MainDescriptionSection from "./MainDescriptionSection";
 import AsideDescriptionSection from "./AsideDescriptionSection";
