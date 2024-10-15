@@ -21,7 +21,7 @@ export default function ServicesImageSectionRight() {
               <h3 className="text-[15px] font-medium md:max-lg:text-[20px] lg:text-[28px]">
                 {item.title}
               </h3>
-              <p className="overflow-hidden text-[10px] font-light md:max-lg:text-[15px] lg:text-[18px]">
+              <p className="hidden sm:block overflow-hidden text-[10px] font-light md:max-lg:text-[15px] lg:text-[18px]">
                 {item.description}
               </p>
             </div>

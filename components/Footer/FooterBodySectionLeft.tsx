@@ -12,7 +12,7 @@ export default function FooterBodySectionLeft() {
         return (
           <div
             key={`${item.title}+${item.icon}-${i}`}
-            className="flex h-[73px] items-center bg-[#093041] p-[10px]"
+            className="flex h-[73px] items-center bg-[#093041] overflow-clip p-[10px]"
           >
             {/* Custom logo component to import svgs */}
             <CustomLogo src={item.icon} alt={item.alt} className="" />

@@ -7,7 +7,7 @@ export default function MainDescriptionSection() {
 
   return (
     <article className="h-[534px]  w-full max-w-[823px] gap-[48px] pr-[20px]">
-      <h2 className="text-[54px] font-normal overflow-hidden">
+      <h2 className="text-[34px] md:text-[54px] font-normal overflow-hidden">
         {mainContent.heading}
       </h2>
       <p className="text-[20px] font-normal overflow-hidden">

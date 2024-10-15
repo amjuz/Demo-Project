@@ -9,7 +9,7 @@ export default function Insights() {
     <Bounded className="my-[70px] font-poppins md:my-[100px] md:space-y-[30px]">
       <div className="flex items-center justify-between">
         {/* Heading for Insights section */}
-        <h2 className="overflow-clip text-center text-[54px] font-light lg:text-start">
+        <h2 className="overflow-clip text-center text-[25px] sm:text-[54px] font-light lg:text-start">
           Latest Insights
         </h2>
         {/* Buttons for carousel like components */}

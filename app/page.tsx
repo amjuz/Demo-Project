@@ -14,9 +14,9 @@ import Stats from "@/components/Stats/Stats";
  * Welcome to landing page of demo project.
  * 
  * All Images for this projects is uploaded to CDN for faster loading,
- * even thou Nextjs helps us to statically generate pages during the build time.
+ * even though Nextjs helps us to statically generate pages during the build time.
  * 
- * Its not necessary to upload static images to CDN if images doesn't change often, 
+ * Its not necessary to upload static images to CDN if images doesn't change often, but its always a good practice 
  * As on a big production grade projects , this approach is going to be helpful.
  * 
  * I have created different components for better readabilty and have provided meaningful names.

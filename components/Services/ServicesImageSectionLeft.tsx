@@ -19,7 +19,7 @@ export default function ServicesImageSectionLeft() {
             />
             <div className="absolute bottom-0 lg:mx-[30px] lg:my-[50px] p-[18px] text-white">
               <h3 className="text-[15px] md:max-lg:text-[20px] lg:text-[28px] font-medium">{item.title}</h3>
-              <p className="text-[10px] md:max-lg:text-[15px] lg:text-[18px] font-light">{item.description}</p>
+              <p className="hidden sm:block text-[10px] md:max-lg:text-[15px] lg:text-[18px] font-light">{item.description}</p>
             </div>
           </div>
         );

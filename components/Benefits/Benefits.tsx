@@ -12,7 +12,7 @@ export default function Benefits() {
         alt={benefits.bgImage.alt}
         width={1920}
         height={1080}
-        className="absolute top-0 -z-10 h-full object-cover"
+        className="absolute top-0 -z-10 h-full w-full object-cover"
       />
       <Bounded className="h-full lg:py-[100px]">
         <div className="flex h-full flex-col justify-center gap-5 lg:h-[633px] lg:flex-row lg:justify-between">

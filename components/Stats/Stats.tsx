@@ -2,13 +2,15 @@ import { cn } from "@/lib/utils";
 import Bounded from "../Custom/Bounded";
 import { stats } from "../../constants/stats";
 import { Separator } from "../ui/separator";
+import React from "react";
 
 export default function Stats() {
   return (
     <Bounded className="my-[30px] flex justify-between gap-[30px] max-md:flex-wrap md:gap-0 md:py-[84px]">
       {stats.map((item, i) => {
         return (
-          <>
+          <React.Fragment key={`fragment-${item.boldText}-${i}`}>
+            {" "}
             <div
               className="flex w-full items-center justify-between"
               key={`${item.boldText}-${i}+${item.normalText}`}
@@ -24,7 +26,7 @@ export default function Stats() {
               orientation="vertical"
               className={cn("hidden h-[121px] bg-black last:hidden lg:block")}
             />
-          </>
+          </React.Fragment>
         );
       })}
     </Bounded>

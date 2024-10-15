@@ -9,7 +9,7 @@ export default function FooterBodySectionRight() {
   return (
     <div className="flex basis-[35%] flex-col gap-[30px] px-[55px]">
       {/* contact us test heading */}
-      <h3 className="text-center text-[50px] font-medium lg:text-left lg:text-[26px]">
+      <h3 className="text-center text-[20px] md:text-[50px] font-medium lg:text-left lg:text-[26px]">
         Contact Us
       </h3>
       {/* Contact us description */}
@@ -22,12 +22,12 @@ export default function FooterBodySectionRight() {
           {phone}
         </Link>
         {/* email information */}
-        <p className="text-[16px] font-semibold">{email}</p>
+        <p className="sm:text-[16px] font-semibold overflow-clip">{email}</p>
       </div>
       {/* other social links */}
       <div className="flex flex-col items-center leading-8 lg:items-start">
         <p className="w-fit text-[16px] font-semibold">Follow us on</p>
-        <div className="flex w-fit gap-[14px]">
+        <div className="flex flex-wrap w-fit gap-[14px]">
           {/* mapping over different logo */}
           {FooterLogo.map((item, i) => {
             return (

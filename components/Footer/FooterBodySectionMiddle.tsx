@@ -8,7 +8,7 @@ export default function FooterBodySectionMiddle() {
         return (
           <div
             key={`${item}-${i}`}
-            className="flex h-[73px] items-center bg-[#093041] p-[10px]"
+            className="flex h-[73px] items-center bg-[#093041] p-[10px] overflow-clip"
           >
             <p className="px-[10px] text-[20px] font-medium">{item}</p>
           </div>
