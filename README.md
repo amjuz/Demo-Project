@@ -5,7 +5,7 @@
 - open the cloned repo in terminal
 - npm i or pnpm i or bun i , according to your preference
 - npm run dev
-- you view the live web page by going to localhost:3000
+- you can view the devlopment server by going to localhost:3000
 
  run the development server:
 
