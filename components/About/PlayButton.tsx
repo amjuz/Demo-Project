@@ -7,8 +7,19 @@ type PlayButton = {
 
 export default function PlayButton({ className }: PlayButton) {
   return (
-    <div className={cn("flex items-center justify-center rounded-full w-[80px] h-[80px] bg-white", className)}>
-      <Image src={"/assets/Play.svg"} alt="" width={1920} height={1080} className="w-[30px] h-[37px]"/>
+    <div
+      className={cn(
+        "flex h-[80px] w-[80px] items-center justify-center rounded-full bg-white",
+        className,
+      )}
+    >
+      <Image
+        src={"/assets/Play.svg"}
+        alt=""
+        width={1920}
+        height={1080}
+        className="h-[37px] w-[30px]"
+      />
     </div>
   );
 }
