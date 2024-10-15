@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export default function CarouselButtons() {
   return (
-    <div className="flex gap-[22px]">
+    <div className="hidden lg:flex gap-[22px]">
       <Button className="flex h-[49px] w-[49px] items-center justify-center rounded-full bg-[#EDEDED] hover:bg-gray-200">
         <Image
           src={"/assets/Play.svg"}

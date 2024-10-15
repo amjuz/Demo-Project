@@ -1,11 +1,11 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 
-type PlayButton = {
+type TPlayButtonProps = {
   className?: string;
 };
 
-export default function PlayButton({ className }: PlayButton) {
+export default function PlayButton({ className }: TPlayButtonProps) {
   return (
     <div
       className={cn(

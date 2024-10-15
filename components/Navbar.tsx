@@ -1,32 +1,33 @@
-import Image from "next/image";
-import { Button } from "./ui/button";
-import Bounded from "./Bounded";
+import Bounded from "./Custom/Bounded";
+import ContactUsButton from "./Contact/ContactUsButton";
+import ResponsiveMenu from "./ResponsiveMenu";
+import CustomLogo from "./Custom/CustomLogo";
 
 export default function Navbar() {
   return (
     <nav className="fixed z-20 flex h-[106px] w-full items-center justify-center text-white">
+      {/* Custom component which helps to maintain uniform spacing */}
       <Bounded className="flex h-[60px] items-center justify-between">
-        <Image
+        <CustomLogo
           src={"/assets/DemoLogo.svg"}
-          alt=""
-          height={1080}
-          width={1920}
+          alt="Demo logo"
           className="h-[42px] w-[134px]"
         />
-        <ul className="font-poppins flex cursor-pointer gap-10 font-medium">
-          <li>About Us</li>
-          <li>How We Help</li>
-          <li>Pricing</li>
-          <li>Portfolio</li>
-          <li>Testimonials</li>
-          <li>Insights</li>
-        </ul>
-        <Button
-          className="font-poppins h-[60px] w-[200px] rounded-[10px] bg-white px-[55px] py-[18px] text-[16px] font-semibold text-black"
-          variant={"secondary"}
-        >
-          Contact Us
-        </Button>
+        {/* Navigation links */}
+        <div className="hidden lg:block">
+          <ul className="flex cursor-pointer xl:gap-10 gap-5 font-poppins font-medium">
+            <li>About Us</li>
+            <li>How We Help</li>
+            <li>Pricing</li>
+            <li>Portfolio</li>
+            <li>Testimonials</li>
+            <li>Insights</li>
+          </ul>
+        </div>
+        {/* component contains button for contact */}
+        <ContactUsButton />
+        {/* component contains responsive menu for small screen sizes */}
+        <ResponsiveMenu />
       </Bounded>
     </nav>
   );

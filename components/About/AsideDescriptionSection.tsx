@@ -5,7 +5,7 @@ export default function AsideDescriptionSection() {
   const { subContent } = aboutDescription;
   return (
     <aside className="flex justify-between h-[164px] w-full max-w-[590px] gap-[44px]">
-      <Separator orientation="vertical" className="border-black border-[2px]"/>
+      <Separator orientation="vertical" className="border-black border-[1px]"/>
       <div className="max-w-[544px] w-full">
         <h4 className="font-poppins text-[26px] font-medium">
           {subContent.heading}

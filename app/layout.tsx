@@ -26,9 +26,9 @@ const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
   variable: "--font-poppins",
-  // while the font gets downloaded the shows fallback font and once the download finished the
+  // while the font gets downloaded they shows fallback font and once the download finished the
   // specified font is displayed  by providing swap below
-  display: 'swap'
+  display: 'swap' 
 });
 
 export const metadata: Metadata = {
@@ -47,6 +47,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable}  ${poppins.variable} antialiased`}
       >
         {/* Custom Navbar created in layout page so that it can be view in all pages  */}
+        {/* We can add more components here for it to be viewed all over the pages */}
         <Navbar />
         {children}
       </body>
